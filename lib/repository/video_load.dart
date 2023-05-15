@@ -4,7 +4,7 @@ import '../infrastructure/models/video_load_model.dart';
 
 class VideoLoad {
   final String apiKey =
-      'Hz7c4UheDZTuIyfwI4Z2oDmXqmyuJJF12wpFBPcFBLfmBKkMmEe7WixL';
+      '';
   static String mainUrl = "https://api.pexels.com";
   final Dio _dio = Dio();
   var getFeedsAPI = '$mainUrl/videos/search';

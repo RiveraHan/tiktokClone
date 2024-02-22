@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:toktik/infrastructure/models/video_load_model.dart';
-import 'package:video_player/video_player.dart';
 
 // import '../../../domain/entities/video.dart';
 import '../../../repository/video_load.dart';

@@ -1,7 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:toktik/config/helpers/text_format.dart';
-import 'package:toktik/domain/entities/video_post.dart';
 
 import '../../infrastructure/models/video_load_model.dart';
 

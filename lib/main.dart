@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-          title: 'TokTik',
+          title: 'TikTokClone',
           debugShowCheckedModeBanner: false,
           theme: AppTheme().getTheme(),
           home: const DiscoveryScreen()),

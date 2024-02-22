@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:toktik/presentation/widgets/video/gradient_background.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../providers/discovery/discovery_provider.dart';
 
 class FullScreenPlayer extends StatefulWidget {
   final String videoUrl;

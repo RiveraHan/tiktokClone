@@ -13,11 +13,13 @@ class VideoButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const _CustomIconBottom(
-            value: 1, iconData: Icons.favorite, iconColor: Colors.red),
+        _CustomIconBottom(
+            value: video.duration + video.id,
+            iconData: Icons.favorite,
+            iconColor: Colors.red),
         const SizedBox(height: 10),
-        const _CustomIconBottom(
-            value: 1, iconData: Icons.remove_red_eye_outlined),
+        _CustomIconBottom(
+            value: video.id * 2, iconData: Icons.remove_red_eye_outlined),
         const SizedBox(height: 10),
         SpinPerfect(
           infinite: true,
@@ -41,6 +43,7 @@ class _CustomIconBottom extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('es value $value');
     return Column(
       children: [
         IconButton(
